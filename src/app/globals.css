@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Open Sans', 'Montserrat', 'Roboto', 'Helvetica Neue', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-weight: 700; /* Bold */
+}
+
+h2 {
+    font-weight: 600; /* Semi-bold */
+}
+
+h3 {
+    font-weight: 500; /* Medium */
+}
